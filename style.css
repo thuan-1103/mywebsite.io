@@ -1,0 +1,133 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    max-width: 1200px;
+    margin:  0 auto;
+}
+
+header {
+    background-color: bisque;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+nav {
+    background-color: rgb(182, 209, 63);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1 / span 2;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    grid-column: 1;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.sidebar {
+    background-color: rgba(237, 237, 245, 0.822);
+    color: #fff;
+    padding: 10px;
+    grid-column: 2;
+}
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-icon a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+    .product-card {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .sidebar {
+        grid-column: 1 / span 2;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    grid-column: 1 / span 2;
+    display: grid;
+}
+
+.footer-item {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.button{
+    background-color: aquamarine;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+.button1 {
+    border-radius: 2px;
+}
+
+.button3 {
+    border-radius: 8px;
+}
+
+.button4 {
+    border-radius: 12px;
+}
+
+.button5 {
+    border-radius: 50px;
+}
