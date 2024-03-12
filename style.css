@@ -54,10 +54,11 @@ nav ul li{
     height: auto;
 }
 .sidebar {
-    background-color: rgba(237, 237, 245, 0.822);
+    background-color: rgba(29, 29, 200, 0.822);
     color: #fff;
     padding: 10px;
     grid-column: 2;
+    
 }
 .social-icon {
     margin-top: 20px;
@@ -106,7 +107,7 @@ nav ul li{
 }
 
 .button{
-    background-color: aquamarine;
+    background-color: rgb(136, 127, 255);
     border: none;
     color: #fff;
     padding: 20px;
@@ -121,7 +122,7 @@ nav ul li{
 }
 
 .button3 {
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 
 .button4 {
