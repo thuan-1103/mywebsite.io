@@ -1,4 +1,4 @@
-#CV CÁ NHÂN
+# CV CÁ NHÂN
 
 ## THÔNG TIN
 * Họ và tên: Nguyễn Thiện Thuận
